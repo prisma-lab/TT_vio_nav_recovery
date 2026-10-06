@@ -1,4 +1,4 @@
-# ROBUST UAV NAVIGATION
+# Tom Thumb VIO Navigation Framework with Odometry Estimation Recovery Strategies
 
 This repository contains the full software stack for autonomous UAV navigation and exploration, with a specific focus on robust recovery from Visual-Inertial Odometry (VIO) failures using tactile odometry and finite state machine logic. The stack has been validated both in Gazebo simulation and on real hardware (Intel RealSense T265 + OptiTrack).
 
@@ -33,8 +33,8 @@ uav_motion_stack/
 
 ### 1. Repository Clone
 ```bash
-git clone --recursive https://github.com/giancorr/robust_uav_navigation.git -b simulation
-cd robust_uav_navigation
+git clone --recursive https://github.com/prisma-lab/TT_vio_nav_recovery.git -b simulation
+cd TT_vio_nav_recovery
 ```
 
 ### 2. Clone PX4 Neabotics Firmware (simulation only)
